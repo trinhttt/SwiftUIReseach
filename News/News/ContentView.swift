@@ -26,11 +26,11 @@ struct ContentView_Previews: PreviewProvider {
 }
 
 // Use Identifiable need to declare id property
-struct Post: Identifiable {
-    var id: String
-    var title: String
-}
-
+//struct Post: Identifiable {
+//    var id: String
+//    var title: String
+//}
+//
 let posts = [
     Post(id: "1", title: "a"),
     Post(id: "2", title: "b"),

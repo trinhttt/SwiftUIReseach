@@ -18,7 +18,7 @@ struct ContentView: View {
                     .aspectRatio(contentMode: .fill)
                     .frame(width: 200, height: 200)
                     .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
-                    .overlay(Circle().stroke(Color.white, lineWidth: 5))
+                    .overlay(Circle().stroke(Color.white, lineWidth: 20))
                 
                 Text("Trinhzz")
                     .font(Font.custom("TradeWinds-Regular", size: 40))
