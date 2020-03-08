@@ -12,6 +12,7 @@ struct Result: Decodable {
     let hits: [Post]
 }
 
+// Use Identifiable need to declare id property
 struct Post: Decodable, Identifiable {
     var id: String {
         return objectID
@@ -19,5 +20,5 @@ struct Post: Decodable, Identifiable {
     let objectID: String
     let points: Int
     let title: String
-    let url: String
+    let url: String?
 }
